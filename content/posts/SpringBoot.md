@@ -8,11 +8,11 @@ avatar: /img/虎头.jpg
 cover: /img/cover.jpg
 # images:
 #   - /img/cover.jpg
-categories:
-  - category1
-tags:
-  - tag1
-  - tag2
+#categories:
+ # - category1
+#tags:
+ # - tag1
+ # - tag2
 # nolastmod: true
 draft: false
 ---

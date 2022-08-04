@@ -6,7 +6,16 @@
     <description>Recent content in Posts on fenglei-blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Mon, 01 Aug 2022 14:08:53 +0800</lastBuildDate><atom:link href="https://feng-blog.netlify.app/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 Aug 2022 10:45:13 +0800</lastBuildDate><atom:link href="https://feng-blog.netlify.app/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SpringBoot</title>
+      <link>https://feng-blog.netlify.app/posts/springboot/</link>
+      <pubDate>Thu, 04 Aug 2022 10:45:13 +0800</pubDate>
+      
+      <guid>https://feng-blog.netlify.app/posts/springboot/</guid>
+      <description>&lt;p&gt;深入实践 Spring Boot&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>BuildBlog</title>
       <link>https://feng-blog.netlify.app/posts/buildblog/</link>

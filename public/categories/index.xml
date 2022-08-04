@@ -6,7 +6,16 @@
     <description>Recent content in Categories on fenglei-blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Mon, 01 Aug 2022 14:08:53 +0800</lastBuildDate><atom:link href="https://feng-blog.netlify.app/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 Aug 2022 10:45:13 +0800</lastBuildDate><atom:link href="https://feng-blog.netlify.app/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>category1</title>
+      <link>https://feng-blog.netlify.app/categories/category1/</link>
+      <pubDate>Thu, 04 Aug 2022 10:45:13 +0800</pubDate>
+      
+      <guid>https://feng-blog.netlify.app/categories/category1/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>博客搭建</title>
       <link>https://feng-blog.netlify.app/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</link>

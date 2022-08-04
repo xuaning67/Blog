@@ -6,7 +6,25 @@
     <description>Recent content in Tags on fenglei-blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Mon, 01 Aug 2022 14:08:53 +0800</lastBuildDate><atom:link href="https://feng-blog.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 Aug 2022 10:45:13 +0800</lastBuildDate><atom:link href="https://feng-blog.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>tag1</title>
+      <link>https://feng-blog.netlify.app/tags/tag1/</link>
+      <pubDate>Thu, 04 Aug 2022 10:45:13 +0800</pubDate>
+      
+      <guid>https://feng-blog.netlify.app/tags/tag1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tag2</title>
+      <link>https://feng-blog.netlify.app/tags/tag2/</link>
+      <pubDate>Thu, 04 Aug 2022 10:45:13 +0800</pubDate>
+      
+      <guid>https://feng-blog.netlify.app/tags/tag2/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>学习</title>
       <link>https://feng-blog.netlify.app/tags/%E5%AD%A6%E4%B9%A0/</link>

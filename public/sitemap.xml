@@ -2,22 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://feng-blog.netlify.app/categories/</loc>
+    <lastmod>2022-08-04T10:45:13+08:00</lastmod>
+  </url><url>
+    <loc>https://feng-blog.netlify.app/categories/category1/</loc>
+    <lastmod>2022-08-04T10:45:13+08:00</lastmod>
+  </url><url>
+    <loc>https://feng-blog.netlify.app/</loc>
+    <lastmod>2022-08-04T10:45:13+08:00</lastmod>
+  </url><url>
+    <loc>https://feng-blog.netlify.app/posts/</loc>
+    <lastmod>2022-08-04T10:45:13+08:00</lastmod>
+  </url><url>
+    <loc>https://feng-blog.netlify.app/posts/springboot/</loc>
+    <lastmod>2022-08-04T10:45:13+08:00</lastmod>
+  </url><url>
+    <loc>https://feng-blog.netlify.app/tags/tag1/</loc>
+    <lastmod>2022-08-04T10:45:13+08:00</lastmod>
+  </url><url>
+    <loc>https://feng-blog.netlify.app/tags/tag2/</loc>
+    <lastmod>2022-08-04T10:45:13+08:00</lastmod>
+  </url><url>
+    <loc>https://feng-blog.netlify.app/tags/</loc>
+    <lastmod>2022-08-04T10:45:13+08:00</lastmod>
+  </url><url>
     <loc>https://feng-blog.netlify.app/posts/buildblog/</loc>
     <lastmod>2022-08-01T14:08:53+08:00</lastmod>
   </url><url>
-    <loc>https://feng-blog.netlify.app/categories/</loc>
-    <lastmod>2022-08-01T14:08:53+08:00</lastmod>
-  </url><url>
-    <loc>https://feng-blog.netlify.app/</loc>
-    <lastmod>2022-08-01T14:08:53+08:00</lastmod>
-  </url><url>
     <loc>https://feng-blog.netlify.app/posts/first/</loc>
-    <lastmod>2022-08-01T14:08:53+08:00</lastmod>
-  </url><url>
-    <loc>https://feng-blog.netlify.app/posts/</loc>
-    <lastmod>2022-08-01T14:08:53+08:00</lastmod>
-  </url><url>
-    <loc>https://feng-blog.netlify.app/tags/</loc>
     <lastmod>2022-08-01T14:08:53+08:00</lastmod>
   </url><url>
     <loc>https://feng-blog.netlify.app/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</loc>

@@ -145,6 +145,12 @@
       </ul>
     </li>
   </ul>
+
+  <ul>
+    <li><a href="#添加部署文件">添加部署文件</a></li>
+    <li><a href="#注册netlify账号">注册netlify账号</a></li>
+    <li><a href="#绑定github仓库">绑定GitHub仓库</a></li>
+  </ul>
 </nav>
     </div>
     
@@ -271,6 +277,36 @@ git commit -m &#34;上传博客文件&#34;
 </code></pre><p>之后只需要输入git push也可。最后，刷新GitHub页面即可查看。<br>
 后续再上传，可以从本地上传的步骤开始执行。</p>
 <h1 id="netlify部署">Netlify部署</h1>
+<h2 id="添加部署文件">添加部署文件</h2>
+<p>原题主说是为了方便管理，在博客目录下整了一个netlify.toml文件，可没理解谁加载了这个配置文件。所以粘贴在下面，万一有用呢。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span>[<span style="color:#a6e22e">build</span>]
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">publish</span> = <span style="color:#e6db74">&#34;public&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">command</span> = <span style="color:#e6db74">&#34;hugo --gc --minify&#34;</span>
+</span></span><span style="display:flex;"><span>[<span style="color:#a6e22e">context</span>.<span style="color:#a6e22e">production</span>.<span style="color:#a6e22e">environment</span>]
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">HUGO_VERSION</span> = <span style="color:#e6db74">&#34;0.101.0&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">HUGO_ENV</span> = <span style="color:#e6db74">&#34;production&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">HUGO_ENABLEGITINFO</span> = <span style="color:#e6db74">&#34;true&#34;</span>
+</span></span><span style="display:flex;"><span>[<span style="color:#a6e22e">context</span>.<span style="color:#a6e22e">split1</span>]
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">command</span> = <span style="color:#e6db74">&#34;hugo --gc --minify --enableGitInfo&#34;</span>
+</span></span><span style="display:flex;"><span>[<span style="color:#a6e22e">context</span>.<span style="color:#a6e22e">split1</span>.<span style="color:#a6e22e">environment</span>]
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">HUGO_VERSION</span> = <span style="color:#e6db74">&#34;0.101.0&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">HUGO_ENV</span> = <span style="color:#e6db74">&#34;production&#34;</span>
+</span></span><span style="display:flex;"><span>[<span style="color:#a6e22e">context</span>.<span style="color:#a6e22e">deploy-preview</span>]
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">command</span> = <span style="color:#e6db74">&#34;hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL&#34;</span>
+</span></span><span style="display:flex;"><span>[<span style="color:#a6e22e">context</span>.<span style="color:#a6e22e">deploy-preview</span>.<span style="color:#a6e22e">environment</span>]
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">HUGO_VERSION</span> = <span style="color:#e6db74">&#34;0.101.0&#34;</span>
+</span></span><span style="display:flex;"><span>[<span style="color:#a6e22e">context</span>.<span style="color:#a6e22e">branch-deploy</span>]
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">command</span> = <span style="color:#e6db74">&#34;hugo --gc --minify -b $DEPLOY_PRIME_URL&#34;</span>
+</span></span><span style="display:flex;"><span>[<span style="color:#a6e22e">context</span>.<span style="color:#a6e22e">branch-deploy</span>.<span style="color:#a6e22e">environment</span>]
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">HUGO_VERSION</span> = <span style="color:#e6db74">&#34;0.101.0&#34;</span>
+</span></span><span style="display:flex;"><span>[<span style="color:#a6e22e">context</span>.<span style="color:#a6e22e">next</span>.<span style="color:#a6e22e">environment</span>]
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">HUGO_ENABLEGITINFO</span> = <span style="color:#e6db74">&#34;true&#34;</span>
+</span></span></code></pre></div><h2 id="注册netlify账号">注册netlify账号</h2>
+<p>Github绑定登录</p>
+<h2 id="绑定github仓库">绑定GitHub仓库</h2>
+<p><code>New site from Git</code>-&gt;<code>GitHub授权</code>-&gt;<code>选择仓库</code>-&gt;<code>main分支</code>（按照自己的情况）-&gt;<code>buld command (hugo)</code>（按需自定，可省略，有啥用不知道）-&gt;<code>publish directory (publish)</code>（同上）-&gt;<code>deploy site</code></p>
+<p>分配域名后可修改二级域名</p>
+<h1 id="构建过程中出现的一些问题尽力回忆">构建过程中出现的一些问题（尽力回忆）</h1>
       </article>
     </section>
 

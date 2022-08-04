@@ -103,3 +103,44 @@ git push -u origin main
 后续再上传，可以从本地上传的步骤开始执行。
 # Netlify部署
 
+## 添加部署文件
+
+原题主说是为了方便管理，在博客目录下整了一个netlify.toml文件，可没理解谁加载了这个配置文件。所以粘贴在下面，万一有用呢。
+
+```toml
+[build]
+    publish = "public"
+    command = "hugo --gc --minify"
+[context.production.environment]
+    HUGO_VERSION = "0.101.0"
+    HUGO_ENV = "production"
+    HUGO_ENABLEGITINFO = "true"
+[context.split1]
+    command = "hugo --gc --minify --enableGitInfo"
+[context.split1.environment]
+    HUGO_VERSION = "0.101.0"
+    HUGO_ENV = "production"
+[context.deploy-preview]
+    command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
+[context.deploy-preview.environment]
+    HUGO_VERSION = "0.101.0"
+[context.branch-deploy]
+    command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
+[context.branch-deploy.environment]
+    HUGO_VERSION = "0.101.0"
+[context.next.environment]
+    HUGO_ENABLEGITINFO = "true"
+```
+
+## 注册netlify账号
+
+Github绑定登录
+
+## 绑定GitHub仓库
+
+`New site from Git`->`GitHub授权`->`选择仓库`->`main分支`（按照自己的情况）->`buld command (hugo)`（按需自定，可省略，有啥用不知道）->`publish directory (publish)`（同上）->`deploy site`
+
+分配域名后可修改二级域名
+
+# 构建过程中出现的一些问题（尽力回忆）
+

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>博客搭建 on fenglei-blog</title>
+    <link>https://feng-blog.netlify.app/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</link>
+    <description>Recent content in 博客搭建 on fenglei-blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Mon, 01 Aug 2022 14:08:53 +0800</lastBuildDate><atom:link href="https://feng-blog.netlify.app/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BuildBlog</title>
+      <link>https://feng-blog.netlify.app/posts/buildblog/</link>
+      <pubDate>Mon, 01 Aug 2022 14:08:53 +0800</pubDate>
+      
+      <guid>https://feng-blog.netlify.app/posts/buildblog/</guid>
+      <description>&lt;p&gt;搭建博客步骤&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Myblog</title>
+      <link>https://feng-blog.netlify.app/posts/first/</link>
+      <pubDate>Mon, 01 Aug 2022 14:08:53 +0800</pubDate>
+      
+      <guid>https://feng-blog.netlify.app/posts/first/</guid>
+      <description>啥也没有 真的没有</description>
+    </item>
+    
+  </channel>
+</rss>

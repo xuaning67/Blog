@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on fenglei-blog</title>
+    <link>https://feng-blog.netlify.app/tags/</link>
+    <description>Recent content in Tags on fenglei-blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Mon, 01 Aug 2022 14:08:53 +0800</lastBuildDate><atom:link href="https://feng-blog.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>啊</title>
+      <link>https://feng-blog.netlify.app/tags/%E5%95%8A/</link>
+      <pubDate>Mon, 01 Aug 2022 14:08:53 +0800</pubDate>
+      
+      <guid>https://feng-blog.netlify.app/tags/%E5%95%8A/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>地方</title>
+      <link>https://feng-blog.netlify.app/tags/%E5%9C%B0%E6%96%B9/</link>
+      <pubDate>Mon, 01 Aug 2022 14:08:53 +0800</pubDate>
+      
+      <guid>https://feng-blog.netlify.app/tags/%E5%9C%B0%E6%96%B9/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>是</title>
+      <link>https://feng-blog.netlify.app/tags/%E6%98%AF/</link>
+      <pubDate>Mon, 01 Aug 2022 14:08:53 +0800</pubDate>
+      
+      <guid>https://feng-blog.netlify.app/tags/%E6%98%AF/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>学习</title>
+      <link>https://feng-blog.netlify.app/tags/%E5%AD%A6%E4%B9%A0/</link>
+      <pubDate>Mon, 01 Aug 2022 14:08:53 +0800</pubDate>
+      
+      <guid>https://feng-blog.netlify.app/tags/%E5%AD%A6%E4%B9%A0/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

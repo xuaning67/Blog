@@ -11,9 +11,6 @@ categories:
   - 博客搭建
 tags:
   - 学习
-  - 啊
-  - 是
-  - 地方
 nolastmod: true
 draft: false
 ---
@@ -105,3 +102,4 @@ git push -u origin main
 之后只需要输入git push也可。最后，刷新GitHub页面即可查看。   
 后续再上传，可以从本地上传的步骤开始执行。
 # Netlify部署
+

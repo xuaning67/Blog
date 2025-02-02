@@ -38,7 +38,7 @@ hasCJKLanguage = true
 
 [params]
   background = "#f7f7f7"
-  backgroundImage = "https://iknow-pic.cdn.bcebos.com/4e4a20a4462309f77ed9a48f600e0cf3d6cad6fd"
+  backgroundImage = "http://iknow-pic.cdn.bcebos.com/4e4a20a4462309f77ed9a48f600e0cf3d6cad6fd"
   linkColor = "seagreen"
 
   # dark mode

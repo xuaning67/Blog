@@ -42,17 +42,17 @@ hasCJKLanguage = true
   linkColor = "seagreen"
 
   # dark mode
-  # defaultDark = true
-  # backgroundDark = "black"
-  # backgroundImageDark = "/me/background-dark.jpg"
-  # darkLinkColor = "darkseagreen"
-  # darkNav = true
-  # dark404 = true
+  defaultDark = true
+  backgroundDark = "black"
+  backgroundImageDark = "http://iknow-pic.cdn.bcebos.com/4e4a20a4462309f77ed9a48f600e0cf3d6cad6fd"
+  darkLinkColor = "darkseagreen"
+  darkNav = true
+  dark404 = true
 
-  author = "fenglei"
+  author = "lfl"
   # description = ""
   avatar = "http://p3-tt.byteimg.com/img/tos-cn-i-qvj2lq49k0/1a7934409a644f428bb9577b5fe5d34b~tplv-resize:600:0.jpg"
-  headerTitle = "fenglei"
+  headerTitle = "lfl"
   motto = "用来记录一些乱七八糟的地方"
   # maxTags = 5
   # categoriesLimitInHeader = 6 # deprecated

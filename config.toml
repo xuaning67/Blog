@@ -38,13 +38,13 @@ hasCJKLanguage = true
 
 [params]
   background = "#f7f7f7"
-  backgroundImage = "https://i2.hdslb.com/bfs/archive/5b6c5d75f27b6b717fb922ad6e3701ab4158eea7.jpg"
+  backgroundImage = "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fup.enterdesk.com%2Fedpic%2Fe2%2F1f%2Fec%2Fe21fecb47b8c238ac2f029dd4d1f2477.jpg&refer=http%3A%2F%2Fup.enterdesk.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1661926421&t=f50eaf8beed451c97a161c4790eb58c2"
   linkColor = "seagreen"
 
   # dark mode
   defaultDark = true
   backgroundDark = "black"
-  backgroundImageDark = "https://i2.hdslb.com/bfs/archive/5b6c5d75f27b6b717fb922ad6e3701ab4158eea7.jpg"
+  backgroundImageDark = "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fup.enterdesk.com%2Fedpic%2Fe2%2F1f%2Fec%2Fe21fecb47b8c238ac2f029dd4d1f2477.jpg&refer=http%3A%2F%2Fup.enterdesk.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1661926421&t=f50eaf8beed451c97a161c4790eb58c2"
   darkLinkColor = "darkseagreen"
   darkNav = true
   dark404 = true

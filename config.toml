@@ -44,7 +44,7 @@ hasCJKLanguage = true
   # dark mode
   defaultDark = true
   backgroundDark = "black"
-  backgroundImageDark = "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fup.enterdesk.com%2Fedpic%2Fe2%2F1f%2Fec%2Fe21fecb47b8c238ac2f029dd4d1f2477.jpg&refer=http%3A%2F%2Fup.enterdesk.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1661926421&t=f50eaf8beed451c97a161c4790eb58c2"
+  backgroundImageDark = "https://img1.baidu.com/it/u=1997790838,2966053964&fm=253&fmt=auto&app=138&f=JPEG?w=1000&h=500"
   darkLinkColor = "darkseagreen"
   darkNav = true
   dark404 = true

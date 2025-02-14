@@ -38,7 +38,7 @@ hasCJKLanguage = true
 
 [params]
   background = "#f7f7f7"
-  backgroundImage = "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fup.enterdesk.com%2Fedpic%2Fe2%2F1f%2Fec%2Fe21fecb47b8c238ac2f029dd4d1f2477.jpg&refer=http%3A%2F%2Fup.enterdesk.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1661926421&t=f50eaf8beed451c97a161c4790eb58c2"
+  backgroundImage = "https://img0.baidu.com/it/u=4219975020,1536153350&fm=253&fmt=auto&app=120&f=JPEG?w=1422&h=800"
   linkColor = "seagreen"
 
   # dark mode
